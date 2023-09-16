@@ -171,17 +171,7 @@ h1{
     vertical-align:auto;
 }
 
-.yt:hover{
+.yt:hover, .gh:hover, .project1:hover, .project2:hover, .project3:hover{
     transition: 500ms;
-    background-color:rgb(210, 0, 0); 
-}
-
-.gh:hover{
-    transition: 500ms;
-    background-color:rgb(210,210,210); 
-}
-
-.st:hover{
-    transition: 500ms;
-    background-color:rgb(12, 41, 64); 
+    filter: brightness(80%); 
 }
